@@ -1,0 +1,497 @@
+Return-Path: <webmin@vxsct210.avnam.net>
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on vxsct210.avnam.net
+X-Spam-Level: *
+X-Spam-Status: No, score=1.1 required=12.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,HTML_FONT_LOW_CONTRAST,HTML_MESSAGE,MIME_HTML_ONLY,
+	MIME_QP_LONG_LINE,NO_RELAYS,WEIRD_PORT autolearn=no autolearn_force=no
+	version=3.4.0
+X-Original-To: prueba.vxsct210.avnam.net@prueba.vxsct210.avnam.net
+Delivered-To: prueba.vxsct210.avnam.net@vxsct210.avnam.net
+Received: by vxsct210.avnam.net (Postfix, from userid 0)
+	id A11582A087; Mon, 13 Dec 2021 13:36:46 -0300 (-03)
+DKIM-Filter: OpenDKIM Filter v2.11.0 vxsct210.avnam.net A11582A087
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=vxsct210.avnam.net;
+	s=2020; t=1639413406;
+	bh=UDJTJ+xgQcV3ti7WeebkhSDrkmYvcIgPH1BlRYikeiQ=;
+	h=From:To:Subject:Date:From;
+	b=hMA4x1XWc+IcOMY3d2DskGOtsGAsyzVtOao45m7IV8l9eIrtRlV3wukmth7EHvJzM
+	 F0CKzf/zyWBqPKz7YCw9YTJ1WxrZS44LN2Awjp6NDCLIrU6wKxbuU4qxsdigXlc5QQ
+	 qs2faFEd9itN7LPy0FdT9d4Z0+GzlfC/BC3KQ5Z5ASP1Gv761oesPoBcDXhd4zcOqq
+	 hXgD6WqdfAxCo5gV2wfdFXOySQrm0V6eo0Ig3WCjC02Gv6yZMD9JP52B8JEsOe5Zqu
+	 lXPR2ESqF3CXZmTCIPF2fMRCz8Hgkr8ihFfemt5paQHqfOYymFGZR43fAcoeawoPmW
+	 tu/Y/0Hb/pASA==
+From: webmin@vxsct210.avnam.net
+To: prueba.vxsct210.avnam.net@prueba.vxsct210.avnam.net
+Subject: Datos de la cuenta - prueba.vxsct210.avnam.net
+Date: Mon, 13 Dec 2021 13:36:46 -0300 (-03)
+Message-Id: <1639413406.27483.1@vxsct210.avnam.net>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="bound1639413406"
+X-Greylist: Sender passed SPF test, not delayed by milter-greylist-4.6.2 (vxsct210.avnam.net [0.0.0.0]); Mon, 13 Dec 2021 13:36:46 -0300 (-03)
+
+This is a multi-part message in MIME format.
+
+--bound1639413406
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+  <meta content=3D"width=3Ddevice-width, initial-scale=3D1" name=3D"viewport" />
+  <title>Bienvenido a Argentina Virtual</title>
+  <style type=3D"text/css">/* Take care of image borders and formatting, client hacks */
+    img { max-width: 600px; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;}
+    a img { border: none; }
+    table { border-collapse: collapse !important;}
+    #outlook a { padding:0; }
+    .ReadMsgBody { width: 100%; }
+    .ExternalClass { width: 100%; }
+    .backgroundTable { margin: 0 auto; padding: 0; width: 100% !important; }
+    table td { border-collapse: collapse; }
+    .ExternalClass * { line-height: 115%; }
+    .container-for-gmail-android { min-width: 600px; }
+
+
+    /* General styling */
+    * {
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: none;
+      width: 100% !important;
+      margin: 0 !important;
+      height: 100%;
+      color: #676767;
+    }
+
+    td {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #777777;
+      text-align: center;
+      line-height: 21px;
+    }
+
+    a {
+      color: #676767;
+      text-decoration: none !important;
+    }
+
+    .pull-left {
+      text-align: left;
+    }
+
+    .pull-right {
+      text-align: right;
+    }
+
+    .header-lg,
+    .header-md,
+    .header-sm {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: normal;
+      padding: 15px 0 0;
+      color: #4d4d4d;
+    }
+
+    .header-md {
+      font-size: 24px;
+    }
+
+    .header-sm {
+      padding: 5px 0;
+      font-size: 18px;
+      line-height: 1.3;
+    }
+
+    .content-padding {
+      padding: 20px 0 30px;
+    }
+
+    .mobile-header-padding-right {
+      width: 290px;
+      text-align: right;
+      padding-left: 10px;
+    }
+
+    .mobile-header-padding-left {
+      width: 290px;
+      text-align: left;
+      padding-left: 10px;
+    }
+
+    .free-text {
+      width: 100% !important;
+      padding: 10px 60px 0px;
+    }
+
+    .block-rounded {
+      border-radius: 5px;
+      border: 1px solid #e5e5e5;
+      vertical-align: top;
+    }
+
+    .button {
+      padding: 30px 0;
+    }
+
+    .info-block {
+      padding: 0 20px;
+      width: 260px;
+    }
+
+    .block-rounded {
+      width: 260px;
+    }
+
+    .info-img {
+      width: 258px;
+      border-radius: 5px 5px 0 0;
+    }
+
+    .force-width-gmail {
+      min-width:600px;
+      height: 0px !important;
+      line-height: 1px !important;
+      font-size: 1px !important;
+    }
+
+    .button-width {
+      width: 228px;
+    }
+  </style>
+  <style media=3D"screen" type=3D"text/css">@import url(http://fonts.googleapis.com/css?family=3DOxygen:400,700);
+  </style>
+  <style media=3D"screen" type=3D"text/css">@media screen {
+      /* Thanks Outlook 2013! */
+      * {
+        font-family: 'Oxygen', 'Helvetica Neue', 'Arial', 'sans-serif' !important;
+      }
+    }
+  </style>
+  <style media=3D"only screen and (max-width: 480px)" type=3D"text/css">/* Mobile styles */
+    @media only screen and (max-width: 480px) {
+
+      table[class*=3D"container-for-gmail-android"] {
+        min-width: 290px !important;
+        width: 100% !important;
+      }
+
+      table[class=3D"w320"] {
+        width: 320px !important;
+      }
+
+      img[class=3D"force-width-gmail"] {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+      }
+
+      a[class=3D"button-width"],
+      a[class=3D"button-mobile"] {
+        width: 248px !important;
+      }
+
+      td[class*=3D"mobile-header-padding-left"] {
+        width: 160px !important;
+        padding-left: 0 !important;
+      }
+
+      td[class*=3D"mobile-header-padding-right"] {
+        width: 160px !important;
+        padding-right: 0 !important;
+      }
+
+      td[class=3D"header-lg"] {
+        font-size: 24px !important;
+        padding-bottom: 5px !important;
+      }
+
+      td[class=3D"header-md"] {
+        font-size: 18px !important;
+        padding-bottom: 5px !important;
+      }
+
+      td[class=3D"content-padding"] {
+        padding: 5px 0 30px !important;
+      }
+
+       td[class=3D"button"] {
+        padding: 5px !important;
+      }
+
+      td[class*=3D"free-text"] {
+        padding: 10px 18px 30px !important;
+      }
+
+      td[class=3D"info-block"] {
+        display: block !important;
+        width: 280px !important;
+        padding-bottom: 40px !important;
+      }
+
+      td[class=3D"info-img"],
+      img[class=3D"info-img"] {
+        width: 278px !important;
+      }
+    }
+  </style>
+</head>
+<body bgcolor=3D"#f7f7f7">
+<table align=3D"center" cellpadding=3D"0" cellspacing=3D"0" class=3D"container-for-gmail-android" width=3D"100%">
+  <tbody>
+    <tr>
+      <td align=3D"center" class=3D"content-padding" style=3D"background-color: #f7f7f7;border-top: 1px solid #d5d5d5;" valign=3D"top" width=3D"100%">
+      <center>
+      <table cellpadding=3D"0" cellspacing=3D"0" class=3D"w320" width=3D"600">
+        <tbody>
+          <tr>
+            <td class=3D"header-lg">Bienvenido a Argentina Virtual</td>
+          </tr>
+          <tr>
+            <td class=3D"free-text">A continuaci&oacute;n vas a encontrar los datos para que puedas hacer uso de tus servicios en Argentina Virtual.</td>
+          </tr>
+        </tbody>
+      </table>
+      </center>
+      </td>
+    </tr>
+    <tr>
+      <td align=3D"center" style=3D"background-color: #ffffff;  border-top: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5;" valign=3D"top" width=3D"100%">
+      <center>&nbsp;
+      <table cellpadding=3D"0" cellspacing=3D"0" class=3D"w320" width=3D"600">
+        <tbody>
+          <tr>
+            <td style=3D"padding-bottom: 20px;">
+            <table cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:separate !important;" width=3D"100%">
+              <tbody>
+                <tr>
+                  <td class=3D"info-block">
+                  <table cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:separate !important;" width=3D"100%">
+                    <tbody>
+                      <tr>
+                        <td class=3D"block-rounded">
+                        <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                          <tbody>
+                            <tr>
+                              <td style=3D"padding: 15px;">
+                              <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                <tbody>
+                                  <tr>
+                                    <td style=3D"text-align:left; width:175px"><a href=3D""><span class=3D"header-sm" style=3D"margin-bottom:25px;">Panel de Control</span></a><br />
+                                    <br />
+                                    Usuario: prueba.vxsct210.avnam.net<br />
+                                    Contrase&ntilde;a: FGwK9g5O84c1Dl1</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style=3D"padding: 15px;">
+                              <div><!--[if mso]>
+                                  <v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:word" href=3D"http://" style=3D"height:45px;v-text-anchor:middle;width:228px;" arcsize=3D"15%" strokecolor=3D"#ffffff" fillcolor=3D"#ff6f6f">
+                                    <w:anchorlock/>
+                                    <center style=3D"color:#ffffff;font-family:Helvetica, Arial, sans-serif;font-size:14px;font-weight:regular;">Acceder</center>
+                                  </v:roundrect>
+                                <![endif]--><a class=3D"button-width" href=3D"https://vxsct210.avnam.net:10000/" style=3D"background-color:#ff6f6f;border-radius:5px;color:#ffffff;display:inline-block;font-family:'Cabin', Helvetica, Arial, sans-serif;font-size:14px;font-weight:regular;line-height:45px;text-align:center;text-decoration:none; -webkit-text-size-adjust:none;mso-hide:all;">Acceder</a></div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </td>
+                  <td class=3D"info-block">
+                  <table cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:separate !important;" width=3D"100%">
+                    <tbody>
+                      <tr>
+                        <td class=3D"block-rounded">
+                        <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                          <tbody>
+                            <tr>
+                              <td style=3D"padding: 15px;">
+                              <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                <tbody>
+                                  <tr>
+                                    <td style=3D"text-align:left; width:175px"><a href=3D""><span class=3D"header-sm">Acceso FTP</span></a><br />
+                                    Host: vxsct210.avnam.net<br />
+                                    Usuario: prueba.vxsct210.avnam.net<br />
+                                    Contrase&ntilde;a: FGwK9g5O84c1Dl1</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style=3D"padding: 15px;">
+                              <div><!--[if mso]>
+                                  <v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:word" href=3D"http://" style=3D"height:45px;v-text-anchor:middle;width:228px;" arcsize=3D"15%" strokecolor=3D"#ffffff" fillcolor=3D"#ff6f6f">
+                                    <w:anchorlock/>
+                                    <center style=3D"color:#ffffff;font-family:Helvetica, Arial, sans-serif;font-size:14px;font-weight:regular;">My Account</center>
+                                  </v:roundrect>
+                                <![endif]--><a class=3D"button-width" href=3D"http://www.argentinavirtual.net/download/FileZilla.zip" style=3D"background-color:#ff6f6f;border-radius:5px;color:#ffffff;display:inline-block;font-family:'Cabin', Helvetica, Arial, sans-serif;font-size:14px;font-weight:regular;line-height:45px;text-align:center;text-decoration:none;-webkit-text-size-adjust:none;mso-hide:all;">Descargar FTP</a></div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table cellpadding=3D"0" cellspacing=3D"0" class=3D"w320" width=3D"600">
+        <tbody>
+          <tr>
+            <td style=3D"padding-bottom: 30px;">
+            <table cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:separate !important;" width=3D"100%">
+              <tbody>
+                <tr>
+                  <td class=3D"info-block">
+                  <table cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:separate !important;" width=3D"100%">
+                    <tbody>
+                      <tr>
+                        <td class=3D"block-rounded">
+                        <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                          <tbody>
+                            <tr>
+                              <td style=3D"padding: 15px;">
+                              <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                <tbody>
+                                  <tr>
+                                    <td style=3D"text-align:left;padding-bottom:12px; width:175px"><a href=3D""><span class=3D"header-sm">Base de Datos</span></a><br />
+                                    <br />
+                                     Host: localhost<br />
+                                    Nombre: prueba_vxsct210_avnam_net<br />
+                                    Usuario: prueba_vxsct210_<br />
+                                    Contrase&ntilde;a: FGwK9g5O84c1Dl1<br />
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td style=3D"padding: 15px;">
+                                    <div><!--[if mso]>
+                                  <v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:word" href=3D"http://" style=3D"height:45px;v-text-anchor:middle;width:228px;" arcsize=3D"15%" strokecolor=3D"#ffffff" fillcolor=3D"#ff6f6f">
+                                    <w:anchorlock/>
+                                    <center style=3D"color:#ffffff;font-family:Helvetica, Arial, sans-serif;font-size:14px;font-weight:regular;">My Account</center>
+                                  </v:roundrect>
+                                <![endif]--><span style=3D"font-size:14px;"><span style=3D"font-family:arial,helvetica,sans-serif;"><a class=3D"button-width" href=3D"http://vxsct210.avnam.net/phpmyadmin78" style=3D"background-color: rgb(255, 111, 111); border-radius: 5px; display: inline-block; line-height: 45px; text-align: center; text-size-adjust: none;"><span style=3D"color:#FFFFFF;">Phpmyadmin</span></a></span></span></div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </td>
+                  <td class=3D"info-block">
+                  <table cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:separate !important;" width=3D"100%">
+                    <tbody>
+                      <tr>
+                        <td class=3D"block-rounded">
+                        <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                          <tbody>
+                            <tr>
+                              <td style=3D"padding: 15px;">
+                              <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                <tbody>
+                                  <tr>
+                                    <td style=3D"text-align:left; width:175px">
+                                    <p><a href=3D""><span class=3D"header-sm">Webmail</span></a></p>
+
+                                    <p><br />
+                                    Una vez creada la cuenta de correo podr&aacute;s acceder al Webmail</p>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style=3D"padding: 15px;">
+                              <div><!--[if mso]>
+
+
+                                      <v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:word" href=3D"http://" style=3D"height:45px;v-text-anchor:middle;width:228px;" arcsize=3D"15%" strokecolor=3D"#ffffff" fillcolor=3D"#ff6f6f">
+
+
+                                        <w:anchorlock/>
+
+
+                                        <center style=3D"color:#ffffff;font-family:Helvetica, Arial, sans-serif;font-size:14px;font-weight:regular;">My Account</center>
+
+
+                                      </v:roundrect>
+
+
+                                    <![endif]--><a class=3D"button-width" href=3D"https://vxsct210.avnam.net/webmail2/" style=3D"background-color:#ff6f6f;border-radius:5px;color:#ffffff;display:inline-block;font-family:'Cabin', Helvetica, Arial, sans-serif;font-size:14px;font-weight:regular;line-height:45px;text-align:center;text-decoration:none;-webkit-text-size-adjust:none;mso-hide:all;">Webmail</a></div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <br />
+            <span class=3D"header-sm" style=3D"margin-top:10px;">Tutoriales en video:</span><br />
+            <span style=3D"font-size:12px;">Hac&eacute; click sobre las preguntas</span><br />
+            <a href=3D"http://blog.argentinavirtual.net/mesa-de-ayuda/virtualmin/crear-email-en-el-panel-de-control-virtualmin-2/"><strong>&iquest;C&oacute;mo doy de alta una cuenta de correo?</strong></a><br />
+            <a href=3D"http://blog.argentinavirtual.net/mesa-de-ayuda/correo-electronico/"><strong>&iquest;C&oacute;mo configuro una cuenta en un cliente de correo?</strong></a><br />
+            <a href=3D"http://blog.argentinavirtual.net/mesa-de-ayuda/varios/configurar-y-conectar-por-ftp/"><strong>&iquest;C&oacute;mo configuro el programa de FTP?</strong></a><br />
+            <br />
+            Si ten&eacute;s alguna duda pod&eacute;s escribirnos a <a href=3D"mailto:soporte@argentinavirtual.net">soporte@argentinavirtual.net</a></td>
+          </tr>
+        </tbody>
+      </table>
+      </center>
+      </td>
+    </tr>
+    <tr>
+      <td align=3D"center" style=3D"background-color: #f7f7f7; height: 100px;" valign=3D"top" width=3D"100%">
+      <center>
+      <table cellpadding=3D"0" cellspacing=3D"0" class=3D"w320" width=3D"600">
+        <tbody>
+          <tr>
+            <td style=3D"padding: 25px 0 25px"><a href=3D"https://www.argentinavirtual.net"><strong>Argentina Virtual Networks SRL</strong></a><br />
+            +54 11 5276-1199<br />
+            Pe&ntilde;a 2128 piso 1<br />
+            CABA, Argentina<br />
+            ---------------<br />
+            <span style=3D"font-size:11px;"><strong>Whatsaspp de guardia para urgencias:<br />
+            +54911 5016-7426</strong></span></td>
+          </tr>
+        </tbody>
+      </table>
+      </center>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
+
+--bound1639413406--
+

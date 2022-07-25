@@ -1,0 +1,4 @@
+AuthName "prueba.vxsct210.avnam.net statistics"
+AuthType Basic
+AuthUserFile /home/prueba.vxsct210.avnam.net/.awstats-htpasswd
+require valid-user
