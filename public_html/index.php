@@ -8,6 +8,7 @@ use Controllers\PrensaController;
 use Controllers\EmpresaController;
 use Controllers\GobiernoController;
 use Controllers\PaginasController;
+use Controllers\RatiosController;
 
 $router = new Router();
 
@@ -32,6 +33,13 @@ $router->get('/gobierno/actualizar', [GobiernoController::class, 'actualizar']);
 $router->post('/gobierno/actualizar', [GobiernoController::class, 'actualizar']);
 $router->post('/gobierno/eliminar', [GobiernoController::class, 'eliminar']);
 
+$router->get('/ratios/admin', [RatiosController::class, 'index']);
+$router->get('/ratios/crear', [RatiosController::class, 'crear']);
+$router->post('/ratios/crear', [RatiosController::class, 'crear']);
+$router->get('/ratios/actualizar', [RatiosController::class, 'actualizar']);
+$router->post('/ratios/actualizar', [RatiosController::class, 'actualizar']);
+$router->post('/ratios/eliminar', [RatiosController::class, 'eliminar']);
+
 $router->get('/index', [PaginasController::class, 'index']);
 $router->get('/', [PaginasController::class, 'index']);
 $router->get('/notasprensa', [PaginasController::class, 'notasprensa']);
@@ -42,6 +50,7 @@ $router->get('/historia', [PaginasController::class, 'historia']);
 $router->get('/cotizacion', [PaginasController::class, 'cotizacion']);
 $router->get('/presentaciones', [PaginasController::class, 'presentaciones']);
 $router->get('/programa_integridad', [PaginasController::class, 'programa_integridad']);
+$router->get('/ratios', [PaginasController::class, 'ratios']);
 $router->get('/contacto', [PaginasController::class, 'contacto']);
 $router->post('/contacto', [PaginasController::class, 'contacto']);
 

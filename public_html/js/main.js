@@ -53,7 +53,42 @@ $(document).ready(function() {
     ]
 });
 
-  
+$('.sliderRatios').slick({
+  centerMode: true,
+  centerPadding: '250px',
+  slidesToShow: 1,
+  arrows: false,
+  infinite: false,
+  responsive: [
+  {
+    breakpoint: 1369,
+    settings: {
+        centerPadding: '80px',
+    }
+},
+      {
+          breakpoint: 1025,
+          settings: {
+              centerPadding: '50px',
+          }
+      },
+      {
+          breakpoint: 780,
+          settings: {
+              centerPadding: '50px',
+          }
+      },
+
+      {
+          breakpoint: 500,
+          settings: {
+              centerPadding: '0px',
+          }
+      },
+
+  ]
+});
+
 
 }); 
 
@@ -72,3 +107,14 @@ $(".scroll").on('click', function(event) {
     });
   } 
 });
+
+$('.tab:first').addClass('active');
+
+$(".tab").on('click', function(e) {
+  e.preventDefault();
+  var slideno = $(this).data('slide');
+  $('.sliderRatios').slick('slickGoTo', slideno - 1);
+  $('.tab').removeClass('active');
+  $(this).addClass('active');
+});
+
