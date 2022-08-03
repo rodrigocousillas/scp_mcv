@@ -38,8 +38,9 @@ class GobiernoController {
 
             //resize a la imagen
             if($_FILES['gobierno']['tmp_name']['imagen']){
-                $image = Image::make($_FILES['gobierno']['tmp_name']['imagen'])->fit(250,250);
+                $image = Image::make($_FILES['gobierno']['tmp_name']['imagen'])->fit(720,720);
                 $gobierno->setImagen($nombreImagen); 
+
             }    
 
             $errores = $gobierno->validar();
@@ -47,13 +48,12 @@ class GobiernoController {
             if(empty($errores)) {
             
                 if(!is_dir(CARPETA_IMAGENES)) {
-                mkdir(CARPETA_IMAGENES);
+                    mkdir(CARPETA_IMAGENES);
                 }
-        
+                
                 $image->save(CARPETA_IMAGENES . $nombreImagen);
 
                 $gobierno->guardar();
-
                 
             }    
 
@@ -91,7 +91,7 @@ class GobiernoController {
             $nombreImagen = md5( uniqid( rand(), true ) ) . ".jpg";
     
             if($_FILES['gobierno']['tmp_name']['imagen']){
-                $image = Image::make($_FILES['gobierno']['tmp_name']['imagen'])->fit(250,250);
+                $image = Image::make($_FILES['gobierno']['tmp_name']['imagen'])->fit(720,720);
                 $gobierno->setImagen($nombreImagen); 
             }  
     

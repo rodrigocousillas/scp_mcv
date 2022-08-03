@@ -23,23 +23,29 @@
                 <div class="row">
                     <div class="cajasIndividuales m-auto">
                     <img src="img/presentaciones_scp.png" alt="" class="img-fluid">
-                    <h4>Cóodigo de Etica</h4>
+                    <h4>Código de Etica</h4>
                         <div class="idiomas">
-                            Español Inglés
+                            <a href="pdf/codigo_etica.pdf" target="_blank">Español</a>
+                            <span style="padding: 0 5px;"></span>
+                            Inglés
                         </div>
                     </div>
                     <div class="cajasIndividuales m-auto">
                     <img src="img/presentaciones_scp.png" alt="" class="img-fluid">
                     <h4>Política Anticorrupción</h4>
                         <div class="idiomas">
-                            Español Inglés
+                            <a href="pdf/politica_ anticorrupcion.pdf" target="_blank">Español</a>
+                            <span style="padding: 0 5px;"></span>
+                            Inglés
                         </div>
                     </div> 
                     <div class="cajasIndividuales m-auto">
                     <img src="img/presentaciones_scp.png" alt="" class="img-fluid">
                     <h4>Protocolo de Relaciones</h4>
                         <div class="idiomas">
-                            Español Inglés
+                            <a href="pdf/relaciones_administracion.pdf" target="_blank">Español</a>
+                            <span style="padding: 0 5px;"></span>
+                            Inglés
                         </div>
                     </div>   
                 </div>

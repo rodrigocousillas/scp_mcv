@@ -18,7 +18,14 @@
                 <div class="card">
                     <img src="prensa/<?php echo $press->imagen;?>" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="marca">_<?php echo $press->empresaId;?></h5>
+                        <h5 class="marca">_
+                            <?php foreach ($empresa as $compania) {	
+                                if($compania->id === $press->empresaId) {
+                                    echo $compania->sigla;
+                                }          
+                            }
+                            ?>
+                        </h5>
                         <p class="titulo"><?php echo $press->titulo?></p>
                         <div class="leerMas"><a href="notaprensa?id=<?php echo $press->id;?>">-> Leer más</a></div>
                     </div>

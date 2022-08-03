@@ -93,7 +93,7 @@ class PrensaController {
             $nombreImagen = md5( uniqid( rand(), true ) ) . ".jpg";
     
             if($_FILES['prensa']['tmp_name']['imagen']){
-                $image = Image::make($_FILES['prensa']['tmp_name']['imagen'])->fit(340,360);
+                $image = Image::make($_FILES['prensa']['tmp_name']['imagen'])->fit(800,600);
                 $prensa->setImagen($nombreImagen); 
             }  
     
@@ -142,4 +142,3 @@ class PrensaController {
 }
 
 ?>
-

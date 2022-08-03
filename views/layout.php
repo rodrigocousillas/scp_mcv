@@ -117,11 +117,11 @@
                     <li><a href="cotizacion">Cotización</a></li>
                     <li><a href="#">Información Financiera</a></li>
                     <li><a href="presentaciones">Presentaciones</a></li>
-                    <li><a href="#">Ratios</a></li>
+                    <li><a href="ratios">Ratios</a></li>
                     <li><a href="programa_integridad">Programa de Integridad</a></li>
                 </ul>
-                <h6><a href="notasprensa">Prensa *</a></h6>
-                <h5><a href="contacto">Contacto *</a></h5>
+                <h6><a href="notasprensa">Prensa</a></h6>
+                <h5><a href="contacto">Contacto</a></h5>
             </div>
             <div class="col-12 col-md-5">
                 <h5>Ubicación</h5>
@@ -133,7 +133,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <a href="index.php"><img src="img/logo_scp.svg" alt=""></a>
+                <a href="index"><img src="img/logo_scp.svg" alt=""></a>
                 <br>
                 ® Todos los derechos reservados SCP 2021, Buenos Aires, Argentina.
             </div>

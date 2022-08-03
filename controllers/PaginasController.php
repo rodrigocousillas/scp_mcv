@@ -5,16 +5,19 @@ use MVC\Router;
 use Model\Prensa;
 use Model\Empresas;
 use Model\Gobierno;
+use Model\Ratios;
 use PHPMailer\PHPMailer\PHPMailer;
 
 class PaginasController {
     public static function index( Router $router ) {
 
         $prensa = Prensa::all();
+        $empresas = Empresas::all();
 
         $router->render('paginas/index', [
             'inicio' => true,
-            'prensa' => $prensa
+            'prensa' => $prensa,
+            'empresa' => $empresas
         ]);
     }
 
@@ -54,6 +57,15 @@ class PaginasController {
         ]);
     }
 
+    public static function ratios( Router $router ) {
+       
+        $ratios = Ratios::all();
+
+        $router->render('paginas/ratios', [ 
+            'ratios' => $ratios
+        ]);
+    }
+
     public static function programa_integridad( Router $router ) {
        
         $router->render('paginas/programa_integridad', [
@@ -63,16 +75,20 @@ class PaginasController {
 
     public static function notasprensa( Router $router ) {
         $prensa = Prensa::all();
+        $empresas = Empresas::all();
         $router->render('paginas/prensa', [
-            'prensa' => $prensa
+            'prensa' => $prensa,
+            'empresa' => $empresas
         ]);
     }
 
     public static function notaprensa(Router $router) {
         $id = validarORedireccionar('/notasprensa');
         $prensa = Prensa::find($id);
+        $empresas = Empresas::all();
         $router->render('paginas/nota', [
-            'prensa' => $prensa
+            'prensa' => $prensa,
+            'empresa' => $empresas
         ]);        
     }
 

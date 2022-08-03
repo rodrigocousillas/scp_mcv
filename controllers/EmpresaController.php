@@ -18,6 +18,7 @@ class EmpresaController{
             'empresas' => $empresas,
             'resultado' => $resultado
         ]);
+
     }
 
     public static function crear(Router $router){

@@ -64,6 +64,13 @@
             <span class="nav-link-text">Empresas</span>
           </a>
         </li> 
+
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Ratios">
+          <a class="nav-link" href="http://prueba.vxsct210.avnam.net/ratios/admin">
+          <i class="fa-solid fa-chart-bar"></i>
+            <span class="nav-link-text">Ratios</span>
+          </a>
+        </li> 
         
       </ul>
       <ul class="navbar-nav sidenav-toggler">

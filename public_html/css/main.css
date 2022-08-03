@@ -941,6 +941,9 @@ a.nav-link:hover { color:#FCDD37!important; }
     color: #999999;
 }
 
+.idiomas a { color: #999999; text-decoration: none; }
+.idiomas a:hover { color: #FCDD37};
+
 .hijo {margin: 0 auto;}
 
 .mb-50 {

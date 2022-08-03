@@ -11,7 +11,7 @@
     <div class="card-header">
         <div class="row">
             <div class="col-md-6">
-                <h4> <i class="fa-solid fa-user"></i> Listar empresas del Grupo</h4>  
+                <h4>  <i class="fa-solid fa-building"></i> Listar empresas del Grupo</h4>  
             </div>
             <div class="col-md-6">
             <a class="btn btn-success" style="float: right;" href="/empresas/crear">Agregar empresa</a>

@@ -5,7 +5,16 @@
     <div class="row">
         <div class="col-8 offset-2">
             <div class="marca">
-            <?php echo $prensa->empresaId?>
+                <?php 
+
+                foreach ($empresa as $compania) {	
+                     
+                        if($compania->id === $prensa->empresaId) {
+                            
+                            echo $compania->sigla;
+                        }          
+                    }
+                ?>
             </div>
             <h1><?php echo $prensa->titulo?></h1>
             <img src="prensa/<?php echo $prensa->imagen;?>" alt="" width="100%">

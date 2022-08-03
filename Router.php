@@ -20,7 +20,7 @@ class Router {
         $auth = $_SESSION['login'] ?? null;
         
         
-        $rutasProtegidas = ['/notas/admin', '/notas/crear', '/notas/actualizar', '/notas/eliminar', '/empresas/admin', '/empresas/crear', '/empresas/actualizar', '/empresas/eliminar', '/gobierno/admin', '/gobierno/crear', '/gobierno/actualizar', '/gobierno/eliminar', '/admin' ];
+        $rutasProtegidas = ['/notas/admin', '/notas/crear', '/notas/actualizar', '/notas/eliminar', '/empresas/admin', '/empresas/crear', '/empresas/actualizar', '/empresas/eliminar', '/gobierno/admin', '/gobierno/crear', '/gobierno/actualizar', '/gobierno/eliminar', '/admin', '/ratios/admin', '/ratios/actualizar' ];
 
         //$urlActual = $_SERVER['PATH_INFO'] ?? '/';
         $urlActual = $_SERVER['REQUEST_URI'] === '' ? '/' : $_SERVER['REQUEST_URI'];

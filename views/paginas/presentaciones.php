@@ -6,7 +6,7 @@
         <div class="franjaAmarilla"></div>
         <div class="headerTitulo">
             <h1>Información financiera</h1>
-            <H2>Frase comercial para<br>Información financiera</H2>
+            <H2>PRESENTACIONES</H2>
         </div>
     </div>    
 </section>
@@ -26,14 +26,18 @@
                         <img src="img/presentaciones_scp.png" alt="" class="img-fluid">
                         <h4>Brochure Institucional</h4>
                         <div class="idiomas">
-                            Español Inglés
+                            <a href="pdf/brochureSCP.Version.Dic.2021.pdf" target="_blank">Español</a>
+                            <span style="padding: 0 5px;"></span>
+                            Inglés
                         </div>
                     </div>
                     <div class="cajasIndividuales">
                     <img src="img/presentaciones_cgc.png" alt="" class="img-fluid">
                     <h4>Presentación CGC</h4>
                         <div class="idiomas">
-                            Español Inglés
+                            <a href="pdf/CGC_Teaser_2022.pdf" target="_blank">Español</a>
+                            <span style="padding: 0 5px;"></span>
+                            Inglés
                         </div>
                     </div>   
                 </div>

@@ -20,16 +20,16 @@
     </div>
 </div>
 <div class="container cajaDirectorio">
-    <div class="row">
-        <div class="col-12 col-md-4 mb-5 directorio">
-            <div class="amarillaDirectorio"></div>
-            <?php foreach($gobierno as $gobiernos) { ?>    
-                <img src="img/directorio.jpg" alt="" class="img-fluid">
+    <div class="row">  
+        <?php foreach($gobierno as $gobiernos) { ?> 
+            <div class="col-12 col-md-4 mb-5 directorio">
+                <div class="amarillaDirectorio"></div>   
+                <img src="prensa/<?php echo $gobiernos->imagen;?>" alt="" class="img-fluid">
                 <div class="nombreapellido"><?php echo $gobiernos->nombre;?></div>
                 <div class="cargo"><?php echo $gobiernos->cargo;?></div> 
                 <div class="verMas">-> Ver más</div>         
-            <?php } ?>
-        </div>        
+            </div>        
+        <?php } ?>
     </div>
 </div>
 
